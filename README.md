@@ -11,10 +11,10 @@ There are three ways to traverse a tree:</p>
 
 <p>In this traversal method, first the left subtree is explored, then the root and finally the right subtree. furthermore, taking into account that each node can represent a complete subtree by itself.
 
-If you traverse a binary tree in order, you will get an output of the key values in ascending order.
+If you traverse a binary tree in order, you will get an output of the key values in ascending order.</p>
 <img width="328" alt="orden transversal" src="https://github.com/20Emi/holbertonschool-binary_trees/assets/124268926/21a033dd-40f3-4920-9fe4-3dedc6f82e9f">
 
-In the in-order traversal, we start at node A and, following the in-order traversal, move towards its left subtree B. Then, the subtree of B is also explored in order. This process is repeated until all nodes are visited. The resulting output of the in-order traversal of this tree will be:
+<p>In the in-order traversal, we start at node A and, following the in-order traversal, move towards its left subtree B. Then, the subtree of B is also explored in order. This process is repeated until all nodes are visited. The resulting output of the in-order traversal of this tree will be:
 </p>
 <h5>D → B → E → A → F → C → G</h5>
 
@@ -28,4 +28,8 @@ In the preorder path, we start at node A and, following the established order, w
 <h5>A → B → D → E → C → F → G</h5>
 
 <h3>Post-order Traversal</h3>
-<p></p>
+<p>In this traversal method, the root node is visited last, hence the name. First we traverse the left subtree, then the right subtree and finally the root node.</p>
+<img src="https://github.com/20Emi/holbertonschool-binary_trees/assets/124218286/02196b2f-de6b-4087-ad09-b5f066fe8157">
+<p>We start from A, and following pre-order traversal, we first visit the left subtree B. B is also traversed post-order. The process goes on until all the nodes are visited. The output of post-order traversal of this tree will be:</p>
+<h5>D → E → B → F → G → C → A</h5>
+
